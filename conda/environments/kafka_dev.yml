@@ -1,0 +1,10 @@
+name: kafka_dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cmake>=3.12
+  - python>=3.6,<3.8
+  - cython>=0.29,<0.30
+  - ipython
+  - librdkafka
